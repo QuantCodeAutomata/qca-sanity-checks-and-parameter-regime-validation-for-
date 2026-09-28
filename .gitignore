@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv
+env/
+venv/
+.idea/
+.vscode/
+*.DS_Store
+.pytest_cache/
+.mypy_cache/
+*.swp
+*.swo
+# Raw market data dumps (never commit exploratory API responses)
+data/*.csv
+data/*.json
+data/*.parquet
+data/*.pkl
